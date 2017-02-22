@@ -7,7 +7,7 @@ tap 'homebrew/test-bot'
 tap 'homebrew/versions'
 brew 'autoconf'
 brew 'cmake'
-brew 'ctag'
+brew 'ctags'
 brew 'doxygen'
 brew 'elasticsearch@1.7', restart_service: true
 brew 'git'
