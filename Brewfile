@@ -37,6 +37,7 @@ brew 'python'
 brew 'rbenv'
 brew 'rbenv-default-gems'
 brew 'readline'
+brew 'reattach-to-user-namespace'
 brew 'redis', restart_service: true
 brew 'ripgrep'
 brew 'ruby-build'
