@@ -1,7 +1,6 @@
 tap 'caskroom/cask'
 tap 'github/bootstrap'
 tap "homebrew/cask"
-tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 brew "atomicparsley"
@@ -45,6 +44,7 @@ brew 'zsh'
 brew 'zsh-completions'
 brew "wget"
 brew "write-good"
+brew "universal-ctags"
 cask "appcleaner"
 cask "dropbox"
 cask "fork"
