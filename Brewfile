@@ -3,9 +3,10 @@ tap 'github/bootstrap'
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "homebrew/cask-versions"
 brew "atomicparsley"
 brew "cmake"
-brew "elasticsearch@2.4", restart_service: true, link: true
+brew "elasticsearch"
 brew "exa"
 brew "fd"
 brew "git"
@@ -31,6 +32,7 @@ brew "mysql", restart_service: true
 brew "nginx", restart_service: true
 brew "postgresql", restart_service: true
 brew "ruby-build"
+brew "reattach-to-user-namespace"
 brew "rbenv"
 brew "rbenv-default-gems"
 brew "redis", restart_service: true
@@ -44,7 +46,6 @@ brew 'zsh'
 brew 'zsh-completions'
 brew "wget"
 brew "write-good"
-brew "universal-ctags"
 cask "appcleaner"
 cask "dropbox"
 cask "fork"
@@ -61,9 +62,4 @@ cask "quitter"
 cask "transmission"
 cask "visual-studio-code"
 cask "zoomus"
-mas "1Password 7", id: 1333542190
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
-mas "Xcode", id: 497799835
 mas 'BetterSnapTool', id: 417375580
-mas 'Evernote', id: 406056744
