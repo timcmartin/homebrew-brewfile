@@ -1,24 +1,35 @@
-tap 'caskroom/cask'
-tap 'github/bootstrap'
+tap "gabrie30/utils"
+tap "getty/oktad", "git@gitlab.getty.cloud:ops/oktad.git"
+tap "github/bootstrap"
+tap "heroku/brew"
+tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "homebrew/cask-versions"
+tap "universal-ctags/universal-ctags"
+cask "xquartz"
 brew "atomicparsley"
+brew "automake"
+brew "aws-elasticbeanstalk"
+brew "readline"
+brew "xz"
+brew "awscli"
 brew "cmake"
-brew "elasticsearch"
+brew "entr"
+brew "openssl@1.1"
 brew "exa"
 brew "fd"
+brew "freetds"
+brew "fzf"
 brew "git"
 brew "git-imerge"
 brew "git-when-merged"
-brew 'openssl'
-brew 'openssl@1.1'
-brew "readline"
-brew "xz"
-brew "python"
+brew "gnu-sed"
+brew "go"
 brew "grc"
-brew "heroku"
+brew "grip"
+brew "hivemind"
 brew "hub"
 brew "hyperscan"
 brew "imagemagick"
@@ -28,38 +39,43 @@ brew "jsonlint"
 brew "libyaml"
 brew "lzip"
 brew "mas"
-brew "mysql", restart_service: true
-brew "nginx", restart_service: true
-brew "postgresql", restart_service: true
+brew "mysql"
+brew "nmap"
+brew "nvm"
+brew "tmux"
+brew "overmind"
+brew "postgresql"
+brew "python@3.8"
+brew "rabbitmq"
 brew "ruby-build"
-brew "reattach-to-user-namespace"
 brew "rbenv"
 brew "rbenv-default-gems"
-brew "redis", restart_service: true
+brew "reattach-to-user-namespace"
+brew "redis"
 brew "ripgrep"
-brew "ssh-copy-id"
-brew 'the_silver_searcher'
-brew 'todo-txt'
-brew 'tmux'
-brew 'vim', args: ['--env_std', '--override-system-vim']
-brew 'zsh'
-brew 'zsh-completions'
+brew "ssh-copy-id", link: true
+brew "the_silver_searcher"
+brew "todo-txt"
+brew "v8"
+brew "vim"
 brew "wget"
 brew "write-good"
-cask "appcleaner"
-cask "dropbox"
-cask "fork"
-cask 'flux'
-cask 'gimp'
-cask "google-chrome"
-cask 'istat-menus'
-cask 'iterm2'
-cask "java8"
-cask "keepingyouawake"
-cask "licecap"
-cask "muzzle"
-cask "quitter"
-cask "transmission"
-cask "visual-studio-code"
-cask "zoomus"
-mas 'BetterSnapTool', id: 417375580
+brew "xclip"
+brew "yarn"
+brew "zsh"
+brew "zsh-completions"
+brew "gabrie30/utils/ghorg"
+brew "getty/oktad/oktad"
+brew "heroku/brew/heroku"
+brew "universal-ctags/universal-ctags/universal-ctags", args: ["HEAD"]
+cask "background-music"
+cask "db-browser-for-sqlite"
+cask "dbeaver-community"
+cask "macdown"
+cask "powershell"
+cask "thyme"
+mas "BetterSnapTool", id: 417375580
+mas "Pages", id: 409201541
+mas "Skitch", id: 425955336
+mas "StuffIt Expander", id: 919269455
+mas "Xcode", id: 497799835
