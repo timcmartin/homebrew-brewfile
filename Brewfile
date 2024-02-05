@@ -39,6 +39,8 @@ brew "libyaml"
 brew "lzip"
 # Mac App Store command-line interface
 brew 'mas'
+# Create modern online books from Markdown files
+brew 'mdbook'
 # Ambitious Vim-fork focused on extensibility and agility
 brew 'neovim'
 # Node Version Manager
