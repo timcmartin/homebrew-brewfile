@@ -1,107 +1,56 @@
+# --- Taps ---
 tap 'github/bootstrap'
 tap 'homebrew/bundle'
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap 'homebrew/core'
 tap 'homebrew/services'
-cask "xquartz"
-# Cross-platform make
-brew "cmake"
-# alternative to find
+
+# --- Git & Related Tools ---
+brew "git"
+brew "gh" # GitHub CLI, replaces deprecated 'hub'
+brew "jq"
+brew "jsonlint"
 brew "fd"
-# Run arbitrary commands when files change
-brew "entr"
-# Command-line fuzzy finder written in Go
+brew "ripgrep"
 brew "fzf"
-# Git
-brew 'git'
-# LazyGit
-brew "lazygit"
-# Incremental merge for git
-brew "git-imerge"
-# Find where a commit was merged in git
-brew "git-when-merged"
-# Colorize logfiles and command output
-brew 'grc'
-# Add GitHub support to git on the command-line
-brew 'hub'
-# Lightweight and flexible command-line JSON processor
-brew 'jq'
-# JSON parser and validator with a CLI
-brew 'jsonlint'
-# YAML Parser
-brew "libyaml"
-# LZMA-based compression program similar to gzip or bzip2
-brew "lzip"
-# Mac App Store command-line interface
-brew 'mas'
-# Create modern online books from Markdown files
-brew 'mdbook'
-# Ambitious Vim-fork focused on extensibility and agility
-brew 'neovim'
-# Node Version Manager
+brew "entr"
+brew "oniguruma"
+
+# --- Neovim & Related ---
+brew "neovim"
+
+# --- Tmux & Related ---
+brew "tmux"
+brew "reattach-to-user-namespace"
+brew "zsh"
+brew "zsh-completions"
+
+# --- Language Runtimes ---
 brew "nvm"
-# Getty OktaD
-brew "getty/oktad/oktad"
-# Regular expressions library
-brew 'oniguruma'
-# Cryptography and SSL/TLS Toolkit
-brew 'openssl@3'
-# Old one for compatibility
-# brew 'openssl@1.1'
-# Interpreted, interactive, object-oriented programming language
-brew 'python@3.11'
-# Ruby version manager
-brew 'rbenv'
-# Auto-installs gems for Ruby installs
-brew 'rbenv-default-gems'
-# Library for command-line editing
-brew 'readline'
-# Reattach process (e.g., tmux) to background
-brew 'reattach-to-user-namespace'
-# Search tool like grep and The Silver Searcher
-brew 'ripgrep'
-# Install various Ruby versions and implementations
-brew 'ruby-build'
-# Add a public key to a remote machine's authorized_keys file
-brew 'ssh-copy-id', link: true
-# Silver Searcher - Saving in case (using ripgrep)
-# brew 'the_silver_searcher'
-# TMUX
-brew 'tmux'
-# TODO.txt
-brew 'todo-txt'
-# Maintained ctags implementation
-brew "universal-ctags/universal-ctags/universal-ctags", args: ["HEAD"]
-# Google's JavaScript engine
-brew "v8"
-# Internet file retriever
-brew "wget"
-# Access X11 clipboards from the command-line
-brew "xclip"
-# JavaScript package manager
 brew "yarn"
-# UNIX shell (command interpreter)
-brew 'zsh'
-# Additional completion definitions for zsh
-brew 'zsh-completions'
-# Personal prefs
-# Password Manager
-cask '1password'
-# Client for the Dropbox cloud storage service
-cask 'dropbox'
-# Terminal emulator as alternative to Apple's Terminal app
-cask 'iterm2'
-# Tool to prevent the system from going into sleep mode
-cask 'keepingyouawake'
-# Open-source Markdown editor
+brew "rbenv"
+brew "rbenv-default-gems"
+brew "ruby-build"
+brew "python@3.11"
+brew "openssl@3"
+brew "readline"
+brew "libyaml"
+brew "lzip"
+brew "mas"
+
+# --- Miscellaneous ---
+brew "stow"
+brew "todo-txt"
+brew "mdbook"
+
+# --- Casks (GUI Apps) ---
+cask "1password"
+cask "dropbox"
+cask "iterm2"
+cask "keepingyouawake"
 cask "macdown"
-# Command-line shell and scripting language
 cask "powershell"
-# Automatically hides or quits apps after periods of inactivity
-cask 'quitter'
-# Utility to resize and position application windows
-cask 'sizeup'
-# Inserts pre-made snippets of text anywhere
-cask 'textexpander'
+
+# --- App Store ---
 mas "Xcode", id: 497799835
