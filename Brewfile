@@ -85,15 +85,11 @@ brew "yarn"
 brew 'zsh'
 # Additional completion definitions for zsh
 brew 'zsh-completions'
-# LazyGit
-brew "lazygit"
 # Personal prefs
 # Password Manager
 cask '1password'
 # Client for the Dropbox cloud storage service
 cask 'dropbox'
-# System monitoring app
-cask 'istat-menus'
 # Terminal emulator as alternative to Apple's Terminal app
 cask 'iterm2'
 # Tool to prevent the system from going into sleep mode
@@ -108,6 +104,4 @@ cask 'quitter'
 cask 'sizeup'
 # Inserts pre-made snippets of text anywhere
 cask 'textexpander'
-# Easy window resize & organize
-mas 'BetterSnapTool', id: 417375580
 mas "Xcode", id: 497799835
