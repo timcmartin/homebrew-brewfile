@@ -53,6 +53,7 @@ cask "macdown"
 cask "powershell"
 cask "raycast"
 cask "fork"
+cask "reaper"
 
 # --- App Store ---
 mas "Xcode", id: 497799835
