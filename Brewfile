@@ -1,16 +1,10 @@
-tap "getty/oktad", "git@gitlab.getty.cloud:ops/oktad.git"
 tap 'github/bootstrap'
 tap 'homebrew/bundle'
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap 'homebrew/core'
 tap 'homebrew/services'
-tap "universal-ctags/universal-ctags"
 cask "xquartz"
-# Okta federated identity for AWS CLI
-brew "okta-aws-cli"
-# set metadata in MP4 files => Not using on work machine
-# brew "atomicparsley"
 # Cross-platform make
 brew "cmake"
 # alternative to find
@@ -21,6 +15,8 @@ brew "entr"
 brew "fzf"
 # Git
 brew 'git'
+# LazyGit
+brew "lazygit"
 # Incremental merge for git
 brew "git-imerge"
 # Find where a commit was merged in git
@@ -89,6 +85,8 @@ brew "yarn"
 brew 'zsh'
 # Additional completion definitions for zsh
 brew 'zsh-completions'
+# LazyGit
+brew "lazygit"
 # Personal prefs
 # Password Manager
 cask '1password'
