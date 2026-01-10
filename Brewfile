@@ -22,6 +22,7 @@ brew "zsh"
 brew "zsh-completions"
 
 # --- Language Runtimes ---
+brew "nodenv"
 brew "nvm"
 brew "yarn"
 brew "rbenv"
