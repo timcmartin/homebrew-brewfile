@@ -1,5 +1,6 @@
 # --- Taps ---
 tap 'github/bootstrap'
+tap 'homebrew/cask-fonts'
 
 # --- Git & Related Tools ---
 brew "git"
@@ -50,3 +51,4 @@ cask "powershell"
 cask "raycast"
 cask "fork"
 cask "reaper"
+cask "font-droid-sans-mono-nerd-font"
