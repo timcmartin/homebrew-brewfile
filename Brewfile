@@ -1,10 +1,5 @@
 # --- Taps ---
 tap 'github/bootstrap'
-tap 'homebrew/bundle'
-tap "homebrew/cask"
-tap "homebrew/cask-versions"
-tap 'homebrew/core'
-tap 'homebrew/services'
 
 # --- Git & Related Tools ---
 brew "git"
