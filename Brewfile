@@ -1,6 +1,5 @@
 # --- Taps ---
 tap 'github/bootstrap'
-tap 'homebrew/cask-fonts'
 
 # --- Git & Related Tools ---
 brew "git"
