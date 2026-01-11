@@ -1,1 +1,3 @@
 # homebrew-brewfile
+
+`brew bundle`
