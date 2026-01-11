@@ -51,3 +51,6 @@ cask "raycast"
 cask "fork"
 cask "reaper"
 cask "font-droid-sans-mono-nerd-font"
+
+# --- App Store ---
+mas "Xcode", id: 497799835
