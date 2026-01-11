@@ -11,6 +11,7 @@ brew "ripgrep"
 brew "fzf"
 brew "entr"
 brew "oniguruma"
+brew "lazygit"
 
 # --- Neovim & Related ---
 brew "neovim"
