@@ -16,6 +16,12 @@ brew "lazygit"
 # --- Neovim & Related ---
 brew "neovim"
 
+# --- AI ---
+brew "anomalyco/tap/opencode"
+# -- This does not work in Brewfile, but does work via command line:
+# brew install copilot-cli
+# brew "copilot-cli"
+
 # --- Tmux & Related ---
 brew "tmux"
 brew "reattach-to-user-namespace"
@@ -52,6 +58,7 @@ cask "raycast"
 cask "fork"
 cask "reaper"
 cask "font-droid-sans-mono-nerd-font"
+cask "wezterm"
 
 # --- App Store ---
 mas "Xcode", id: 497799835
