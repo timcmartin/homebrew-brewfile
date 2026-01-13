@@ -42,6 +42,9 @@ brew "libyaml"
 brew "lzip"
 brew "mas"
 
+# --- Konnected CLI ---
+brew "esptool"
+
 # --- Miscellaneous ---
 brew "stow"
 brew "todo-txt"
