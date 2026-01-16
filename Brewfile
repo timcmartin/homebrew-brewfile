@@ -61,6 +61,7 @@ cask "raycast"
 cask "fork"
 cask "reaper"
 cask "font-droid-sans-mono-nerd-font"
+cask "font-meslo-lg-nerd-font"
 cask "wezterm"
 
 # --- App Store ---
