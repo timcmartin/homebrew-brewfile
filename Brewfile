@@ -27,6 +27,8 @@ brew "tmux"
 brew "reattach-to-user-namespace"
 brew "zsh"
 brew "zsh-completions"
+# --- For Tmux Powerkit ---
+brew "bash"
 
 # --- Language Runtimes ---
 brew "nodenv"
@@ -61,7 +63,7 @@ cask "raycast"
 cask "fork"
 cask "reaper"
 cask "font-droid-sans-mono-nerd-font"
-cask "font-meslo-lg-nerd-font"
+cask "font-jetbrains-mono-nerd-font"
 cask "wezterm"
 
 # --- App Store ---
