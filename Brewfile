@@ -18,9 +18,6 @@ brew "neovim"
 
 # --- AI ---
 # brew "anomalyco/tap/opencode"
-# -- This does not work in Brewfile, but does work via command line:
-# brew install copilot-cli
-# brew "copilot-cli"
 
 # --- Tmux & Related ---
 brew "tmux"
@@ -58,7 +55,7 @@ brew "mdbook"
 cask "1password"
 cask "copilot-cli"
 cask "dropbox"
-# cask "iterm2"
+cask "copilot-cli"
 cask "keepingyouawake"
 cask "macdown"
 cask "powershell"
