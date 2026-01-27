@@ -24,6 +24,8 @@ brew "tmux"
 brew "reattach-to-user-namespace"
 brew "zsh"
 brew "zsh-completions"
+brew "spaceship"
+brew "eza"
 # --- For Tmux Powerkit ---
 brew "bash"
 
