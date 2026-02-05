@@ -26,6 +26,7 @@ brew "zsh"
 brew "zsh-completions"
 brew "spaceship"
 brew "eza"
+brew "tree"
 # --- For Tmux Powerkit ---
 brew "bash"
 
