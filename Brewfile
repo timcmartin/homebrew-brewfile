@@ -51,6 +51,7 @@ brew "esptool"
 brew "stow"
 brew "todo-txt"
 brew "mdbook"
+brew "mailhog"
 
 # --- Casks (GUI Apps) ---
 cask "1password"
