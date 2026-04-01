@@ -12,12 +12,10 @@ brew "fzf"
 brew "entr"
 brew "oniguruma"
 brew "lazygit"
+brew "lolcat"
 
 # --- Neovim & Related ---
 brew "neovim"
-
-# --- AI ---
-# brew "anomalyco/tap/opencode"
 
 # --- Tmux & Related ---
 brew "tmux"
@@ -44,8 +42,25 @@ brew "libyaml"
 brew "lzip"
 brew "mas"
 
-# --- Konnected CLI ---
-brew "esptool"
+# --- Build Dependencies & Libraries ---
+brew "flex"
+brew "bison"
+brew "gperf"
+brew "sqlite"
+brew "fontconfig"
+brew "icu4c"
+brew "freetype"
+brew "libpng"
+brew "jpeg"
+brew "python"
+brew "libxml2"
+brew "libxslt"
+brew "gnupg"
+brew "zlib"
+brew "libffi"
+brew "curl"
+brew 'consul-template'
+# cask "xquartz"  # Needed if X11 support required (libx11-dev, libxext-dev)
 
 # --- Miscellaneous ---
 brew "stow"
