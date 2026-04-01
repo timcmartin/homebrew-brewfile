@@ -16,9 +16,6 @@ brew "lazygit"
 # --- Neovim & Related ---
 brew "neovim"
 
-# --- AI ---
-# brew "anomalyco/tap/opencode"
-
 # --- Tmux & Related ---
 brew "tmux"
 brew "reattach-to-user-namespace"
@@ -59,7 +56,7 @@ cask "copilot-cli"
 cask "dropbox"
 cask "keepingyouawake"
 cask "macdown-3000"
-cask "powershell"
+# cask "powershell"
 cask "raycast"
 cask "fork"
 # cask "reaper"
