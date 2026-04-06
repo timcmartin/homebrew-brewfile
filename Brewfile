@@ -79,7 +79,6 @@ cask "fork"
 cask "font-droid-sans-mono-nerd-font"
 cask "font-jetbrains-mono-nerd-font"
 cask "wezterm"
-cask "keepingyouawake"
 
 # --- App Store ---
 # mas "Xcode", id: 497799835
