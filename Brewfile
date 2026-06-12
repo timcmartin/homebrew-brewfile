@@ -13,6 +13,7 @@ brew "entr"
 brew "oniguruma"
 brew "lazygit"
 brew "lolcat"
+brew "pass"
 
 # --- Neovim & Related ---
 brew "neovim"
@@ -27,6 +28,7 @@ brew "eza"
 brew "tree"
 # --- For Tmux Powerkit ---
 brew "bash"
+brew "fswatch"
 
 # --- Language Runtimes ---
 brew "nodenv"
@@ -60,6 +62,7 @@ brew "zlib"
 brew "libffi"
 brew "curl"
 brew 'consul-template'
+brew 'docker'
 # cask "xquartz"  # Needed if X11 support required (libx11-dev, libxext-dev)
 
 # --- Miscellaneous ---
@@ -71,6 +74,7 @@ brew "mailhog"
 # --- Casks (GUI Apps) ---
 cask "1password"
 cask "copilot-cli"
+cask "github-copilot-app"
 cask "dropbox"
 cask "keepingyouawake"
 cask "macdown-3000"
