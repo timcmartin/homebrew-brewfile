@@ -14,6 +14,7 @@ brew "oniguruma"
 brew "lazygit"
 brew "lolcat"
 brew "pass"
+brew "glab"
 
 # --- Neovim & Related ---
 brew "neovim"
