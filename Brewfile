@@ -27,6 +27,7 @@ brew "zsh-completions"
 brew "spaceship"
 brew "eza"
 brew "tree"
+brew "herdr"
 # --- For Tmux Powerkit ---
 brew "bash"
 brew "fswatch"
