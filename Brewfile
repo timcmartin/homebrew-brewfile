@@ -15,6 +15,8 @@ brew "lazygit"
 brew "lolcat"
 brew "pass"
 brew "glab"
+brew "agavra/tap/tuicr"
+brew "worktrunk"
 
 # --- Neovim & Related ---
 brew "neovim"
@@ -71,12 +73,11 @@ brew 'docker'
 brew "stow"
 brew "todo-txt"
 brew "mdbook"
-brew "mailhog"
+brew "mailpit"
+brew "superfile"
 
 # --- Casks (GUI Apps) ---
 cask "1password"
-cask "copilot-cli"
-cask "github-copilot-app"
 cask "dropbox"
 cask "keepingyouawake"
 cask "macdown-3000"
@@ -85,6 +86,12 @@ cask "fork"
 cask "font-droid-sans-mono-nerd-font"
 cask "font-jetbrains-mono-nerd-font"
 cask "wezterm"
+
+# --- AI Tools ---
+cask "claude-code"
+cask "claude"
+cask "copilot-cli"
+cask "github-copilot-app"
 
 # --- App Store ---
 # mas "Xcode", id: 497799835
