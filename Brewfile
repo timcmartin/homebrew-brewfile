@@ -67,6 +67,7 @@ brew "libffi"
 brew "curl"
 brew 'consul-template'
 brew 'docker'
+brew 'redis'
 # cask "xquartz"  # Needed if X11 support required (libx11-dev, libxext-dev)
 
 # --- Miscellaneous ---
@@ -86,6 +87,7 @@ cask "fork"
 cask "font-droid-sans-mono-nerd-font"
 cask "font-jetbrains-mono-nerd-font"
 cask "wezterm"
+cask "ghostty"
 
 # --- AI Tools ---
 cask "claude-code"
