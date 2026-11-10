@@ -15,6 +15,7 @@ brew "lazygit"
 brew "lolcat"
 brew "pass"
 brew "glab"
+brew "sf" # Salesforce CLI (cask salesforce-cli is disabled)
 brew "agavra/tap/tuicr"
 brew "worktrunk"
 
@@ -88,6 +89,7 @@ cask "font-droid-sans-mono-nerd-font"
 cask "font-jetbrains-mono-nerd-font"
 cask "wezterm"
 cask "ghostty"
+cask "meld"
 
 # --- AI Tools ---
 cask "claude-code"
