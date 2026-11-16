@@ -69,6 +69,7 @@ brew "curl"
 brew 'consul-template'
 brew 'docker'
 brew 'redis'
+brew 'awscli'
 # cask "xquartz"  # Needed if X11 support required (libx11-dev, libxext-dev)
 
 # --- Miscellaneous ---
